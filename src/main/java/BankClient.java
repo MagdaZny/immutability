@@ -1,9 +1,8 @@
 import java.util.ArrayList;
 
-public class BankClient {
+public final class BankClient {
 
-    private  ArrayList<Integer> transactions;
-
+    protected final ArrayList<Integer> transactions;
 
     public ArrayList<Integer> getTransactions() {
 
