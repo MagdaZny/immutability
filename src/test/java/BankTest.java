@@ -10,7 +10,4 @@ public void bankClient(){
     bankClient.addTransaction(1);
     Assert.assertEquals(1, bankClient.actualMoney());
 }
-
-
-
 }
