@@ -4,8 +4,11 @@ public class BankClient {
 
     private  ArrayList<Integer> transactions;
 
+
     public ArrayList<Integer> getTransactions() {
-        return transactions;
+
+        ArrayList<Integer> copyTrnasactions = new ArrayList<Integer>(transactions);
+        return copyTrnasactions;
     }
 
     public BankClient() {
